@@ -120,7 +120,6 @@ def write_file(matr, out, rows, cols):
         out.write('\n')
 
 def main():
-    print("Project :: R11706114")
     line_count = 0
     parser = parse_args(sys.argv[1:])
     if (parser.Processes < 1): # check processes command arg 
